@@ -171,10 +171,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1080, y: 2160}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -406,10 +406,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1175686407}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 874b6fc50beb4e36b0730a3d51aae5e0, type: 3}
+  m_Script: {fileID: 11500000, guid: e969439d183b4245b82237b9dc237096, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rawImage: {fileID: 883388007}
+  _rawImage: {fileID: 883388007}
+  width: 640
+  height: 480
+  fps: 30
+  deviceIndex: 0
+  _configAsset: {fileID: 4900000, guid: 791f9171a6a50a8e79bb6a40d1020232, type: 3}
 --- !u!1 &1394004471
 GameObject:
   m_ObjectHideFlags: 0
